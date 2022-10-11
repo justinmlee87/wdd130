@@ -242,36 +242,30 @@ nav {
     footer {
         margin-top: 25px;
     }
-    .msgone, .msgtwo {
-        woidth: 80%
-        display: block;
-        margin: 0 auto;
-    }
+    
 }
 
 /*Below is where my rivers.html edits will be*/
 
 .littlecolorado-card, .canyon-card, .rafting-card {
-    grid-column: 1/5
-}
-.littlecolorado-card {
+    grid-column: 1/6;
     margin-top: 25px;
+}
+
+.littlecolorado-card {
+    grid-row: 1/1;
 }
 .canyon-card {
-    margin-top: 25px;
+    grid-row: 2/2;
 }
-.rafting-card {
-    margin-top: 25px;
-}
-footer {
-    margin-top: 25px;
-}
+
 .msgone {
     grid-column: 6/10;
-    grid-row: 1/3;
+    grid-row: 1/2;
     margin-top: 25px;
     box-shadow: 5px 5px 10px #6f7364;
     background-color: #3a7e5e;
+    margin-left: 25px;
 }
 .msgone h2 {
     font-family: 'Permanent Marker';
@@ -281,10 +275,11 @@ footer {
 }
 .msgtwo {
     grid-column: 6/10;
-    grid-row: 3/5;
+    grid-row: 2/3;
     margin-top: 25px;
     box-shadow: 5px 5px 10px #6f7364;
     background-color: #3a7e5e;
+    margin-left: 25px;
 }
 .msgtwo h2 {
     font-family: 'Permanent Marker';
