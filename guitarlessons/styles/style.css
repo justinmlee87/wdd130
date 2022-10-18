@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Rubik+Dirt&display=swap');
+
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #000000;
+    font-family: "Alkalami";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #2dbdae;
+    display: grid;
+    grid-template-columns: 150px auto;
+    
+}
+nav a {
+    text-align: center;
+    color: #Ce0000;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-msg h1 {
+    text-align: center;
+    color: #Ce0000;
+
+}
+#hero-msg h4 {
+    text-align: center;
+    color: #Ce0000;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+nav a:hover{
+    background-color: #Ce0000;
+    color: white;
+}
+.book, .join{
+    background-color: #Ce0000;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover{
+    background-color: #Ce0000;
+    color: white;
+}
+.msg{
+    background-color: #2dbdae;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: -50px;
+}
+footer{
+    background-color: #Ce0000;
+    padding: 25px 50px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+footer p {
+    font-size: 1.2em;
+}  
+footer p a:hover {
+    text-decoration: underline;
+}    
+#hero-img{
+    width: 100%;
+}
+#guitarist{
+    width: 100%;
+}
+#logo-link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    
+}
