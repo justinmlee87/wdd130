@@ -154,3 +154,62 @@ nav {
     }
     
 }
+
+
+/*below is the css for subpage 1, guitaranatomy.*/
+
+.home-grid {
+    display: grid;
+}
+.msgone, .msgtwo, .msgthree {
+    grid-column: 14/15;
+}
+.msgone {
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px #2dbdae;
+    background-color: #Ce0000;
+    margin-left: 25px;
+    color: white;
+}
+.msgone h2 {
+    font-family: 'Alkalami';
+}
+.msgone p {
+    font-size: 1em;
+}
+.msgtwo {
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px #2dbdae;
+    background-color: #Ce0000;
+    margin-left: 25px;
+    color: white;
+}
+.msgtwo h2 {
+    font-family: 'Alkalami';
+}
+.msgtwo p {
+    font-size: 1em;
+}
+.msgthree {
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px #2dbdae;
+    background-color: #Ce0000;
+    margin-left: 25px;
+    color: white;
+    margin-bottom: 100px;
+}
+.guitarheadstock-card {
+    margin-top: 25px;
+    grid-column: 1/4;
+    margin-bottom: -20px;
+}
+.guitarneck-card {
+    margin-top: 25px;
+    margin-bottom: -20px;
+    grid-column: 1/4;
+}
+.guitarbody-card {
+    margin-top: 25px;
+    margin-bottom: -20px;
+    grid-column: 1/4;
+}
