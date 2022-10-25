@@ -213,3 +213,70 @@ nav {
     margin-bottom: -20px;
     grid-column: 1/4;
 }
+
+/*css for guitar chords html*/
+
+
+.home-gridtwo {
+    display: grid;
+}
+.msgmain {
+    background-color: #Ce0000;
+    line-height: 1.5em;
+    padding: 35px;
+    color: white;
+    grid-row: 1/1;
+    grid-column: 1/15;
+}
+
+.cchord-card {
+    margin-top: 25px;
+    grid-row: 2/2;
+    grid-column: 0/2;
+    margin-left: -50px;
+    margin-bottom: -15px;
+
+}
+.gchord-card {
+    grid-row: 3/3;
+    grid-column: 0/2;
+    margin-left: -50px;
+    margin-top: 25px;
+    margin-bottom: -15px;
+}
+.dchord-card {
+    grid-row: 4/4;
+    grid-column: 0/2;
+    margin-left: -50px;
+    margin-top: 25px;
+}
+.msgc {
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px #2dbdae;
+    background-color: #Ce0000;
+    margin-left: 25px;
+    color: white;
+    grid-row: 2/2;
+
+}
+.msgg {
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px #2dbdae;
+    background-color: #Ce0000;
+    margin-left: 25px;
+    color: white;
+    grid-row: 3/3;
+}
+.msgd {
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px #2dbdae;
+    background-color: #Ce0000;
+    margin-left: 25px;
+    color: white;
+    margin-bottom: 75px;
+    grid-row: 4/4;
+}
+.msgc, .msgg, .msgd {
+    grid-column: 2/15;
+    margin-left: -5px;
+}
